@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all .3s;
+}
+
+html, * {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
