@@ -2,7 +2,7 @@
   <aside 
     @mouseenter="isHovered = true"
     @mouseleave="isHovered = false"
-    class="fixed w-12 bg-transparent h-screen z-50 hover:w-64 hover:bg-black hover:bg-opacity-25 hover:backdrop-blur">
+    class="fixed w-12 bg-transparent h-screen z-50 hover:w-64 hover:bg-black hover:bg-opacity-10 hover:backdrop-blur-xl">
       <div
         class="flex flex-col justify-center items-center h-full"
         v-if="isHovered">

@@ -3,7 +3,7 @@
   <!-- landing page -->
   <!-- TODO: mobile version -->
   <!-- TODO: scroll lock -->
-  <div className="snap-proximity snap-y overflow-y-scroll overflow-x-hidden h-screen w-screen">
+  <div className="absolute snap-proximity snap-y overflow-y-scroll overflow-x-hidden h-screen w-screen">
   <div class="bg-black h-screen snap-start" id="home">
     <div class="flex flex-col justify-center h-full text-left mx-24 snap-start">
       <h1 class="text-9xl text-blue-600 font-extrabold">
@@ -234,7 +234,7 @@
       </a>
     </div>
   </div>
-  </div>
+</div>
 </template>
 
 <script>
