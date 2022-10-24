@@ -6,7 +6,7 @@
         <svg 
           v-if="!isPlaying"
           data-testid="play" 
-          class="w-5 h-5 hover:transform hover:scale-125" 
+          class="w-5 h-5 transform scale-125 hover:transform hover:scale-150" 
           fill="#8f8f8f" 
           stroke="currentColor" 
           viewBox="0 0 24 24" 
