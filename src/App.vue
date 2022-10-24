@@ -1,8 +1,11 @@
 <template>
   <Sidebar />
   <!-- landing page -->
-  <div class="bg-black h-screen" id="home">
-    <div class="flex flex-col justify-center h-full text-left mx-24">
+  <!-- TODO: mobile version -->
+  <!-- TODO: scroll lock -->
+  <div className="snap-proximity snap-y overflow-y-scroll overflow-x-hidden h-screen w-screen">
+  <div class="bg-black h-screen snap-start" id="home">
+    <div class="flex flex-col justify-center h-full text-left mx-24 snap-start">
       <h1 class="text-9xl text-blue-600 font-extrabold">
         Arkhatic, 
       </h1>
@@ -17,7 +20,7 @@
   </div>
 
   <!-- about page -->
-  <div class="bg-white h-auto p-24" id="about">
+  <div class="bg-white h-auto p-24 snap-start" id="about">
     <div class="flex flex-col text-left">
       <h1 class="text-8xl text-black font-extrabold">
         I have been always learning alone.
@@ -40,7 +43,7 @@
   </div>  
 
   <!-- partners page -->
-  <div class="min-h-screen bg-green-100 p-24 flex flex-col" id="partners">
+  <div class="min-h-screen bg-green-100 p-24 flex flex-col snap-start" id="partners">
     <div>
       <h1 class="text-7xl text-green-700 font-black">Fortunately, I don't work alone anymore.</h1>
 
@@ -78,7 +81,7 @@
   </div> 
 
   <!-- the undead commander -->
-  <div class="bg-black h-screen flex flex-col justify-center items-center text-center" id="undead-commander">
+  <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="undead-commander">
     <img 
       src="https://cdn.cnn.com/cnnnext/dam/assets/140828132531-01-world-war-ii-0828.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
@@ -90,7 +93,7 @@
     </div>
   </div>
 
-  <div class="bg-black flex flex-col p-24">
+  <div class="bg-black flex flex-col p-24 snap-start">
     <h1 
       class="text-white text-7xl font-details text-center">
       In modern warfare, there are no victors; <br> 
@@ -110,7 +113,7 @@
   </div>
 
   <!-- cantus of requiem -->
-  <div class="bg-black h-screen flex flex-col justify-center items-center text-center" id="awoken">
+  <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="awoken">
     <img 
       src="https://r4.wallpaperflare.com/wallpaper/432/899/621/fantasy-art-clouds-digital-art-futuristic-wallpaper-8d1bdf2ceb7791f3e2be17e2500dcba4.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
@@ -122,7 +125,7 @@
     </div>
   </div>
 
-  <div class="bg-purple-100 flex flex-col p-24">
+  <div class="bg-purple-100 flex flex-col p-24 snap-start">
     <h1 
       class="text-purple-700 text-7xl font-display font-black">
       Clouds dwelings, <br>
@@ -147,7 +150,7 @@
   </div> 
 
   <!-- winter -->
-  <div class="flex h-screen w-screen flex-rows" id="soundscapes">
+  <div class="flex h-screen w-screen flex-rows snap-start" id="soundscapes">
     <div class="bg-black w-[50vw] h-screen flex flex-col justify-center items-center text-center">
       <img 
         src="https://wallup.net/wp-content/uploads/2016/03/10/340880-fantasy_art-landscape.jpg" 
@@ -160,7 +163,7 @@
       </div>
     </div>
 
-    <div class="bg-black w-[50vw] h-full flex flex-col justify-center items-center text-center">
+    <div class="bg-black w-[50vw] h-full flex flex-col justify-center items-center text-center ">
       <img 
         src="https://images4.alphacoders.com/283/283686.jpg" 
         class="w-[50vw] h-full object-cover opacity-50 absolute z-10 ">
@@ -173,7 +176,7 @@
     </div>
   </div>
 
-  <div class="flex h-screen w-screen flex-rows">
+  <div class="flex h-screen w-screen flex-rows snap-start">
     <div class="bg-black w-[50vw] h-screen flex flex-col justify-center items-center text-center">
       <img 
         src="https://cdn.wallpapersafari.com/0/62/1PULhg.jpg" 
@@ -199,7 +202,7 @@
     </div>
   </div>
 
-  <div class="min-h-screen bg-blue-50 p-24 flex flex-col text-center justify-center align-center" id="contact">
+  <div class="min-h-screen bg-blue-50 p-24 flex flex-col text-center justify-center align-center snap-start" id="contact">
     <h1 class="text-blue-700 font-black text-8xl m-0 p-0 ">
       That was a ride, wasn't it?
     </h1>
@@ -231,7 +234,7 @@
       </a>
     </div>
   </div>
-  
+  </div>
 </template>
 
 <script>
