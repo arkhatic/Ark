@@ -2,7 +2,7 @@
   <aside 
     @mouseenter="isHovered = true"
     @mouseleave="isHovered = false"
-    class="fixed w-12 bg-transparent h-screen z-50 hover:w-64 hover:bg-black hover:bg-opacity-10 hover:backdrop-blur-xl">
+    class="fixed w-12 bg-transparent h-screen z-50 hover:w-64 hover:bg-black hover:bg-opacity-25 hover:backdrop-blur-xl">
       <div
         class="flex flex-col justify-center items-center h-full"
         v-if="isHovered">
@@ -25,13 +25,13 @@
           <h1 class="text-neutral-500 font-bold text-2xl">
             Projects
           </h1>
-          <a href="#undead-commander" class="text-neutral-300 font-bold text-2xl border-slate-50 mb-4 hover:text-blue-700">
+          <a href="#undead-commander" class="text-blue-100 font-bold text-2xl border-slate-50 mb-4 hover:text-blue-700">
             Commander
           </a>
-          <a href="#awoken" class="text-neutral-300 font-bold text-2xl border-slate-50 mb-4 hover:text-blue-700">
+          <a href="#awoken" class="text-blue-100 font-bold text-2xl border-slate-50 mb-4 hover:text-blue-700">
             Awoken
           </a>
-          <a href="#soundscapes" class="text-neutral-300 font-bold text-2xl border-slate-50 mb-4 hover:text-blue-700">
+          <a href="#soundscapes" class="text-blue-100 font-bold text-2xl border-slate-50 mb-4 hover:text-blue-700">
             Soundscapes
           </a>
 

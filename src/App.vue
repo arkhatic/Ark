@@ -4,38 +4,43 @@
   <!-- TODO: mobile version -->
   <!-- TODO: scroll lock -->
   <div className="absolute snap-proximity snap-y overflow-y-scroll overflow-x-hidden h-screen w-screen">
-  <div class="bg-black h-screen snap-start" id="home">
-    <div class="flex flex-col justify-center h-full text-left mx-24 snap-start">
-      <h1 class="text-9xl text-blue-600 font-extrabold">
+  <div class="dark:bg-black bg-white h-screen snap-start" id="home">
+    <div class="flex flex-col justify-center h-full mx-12 text-center items-center lg:items-start xl:text-left lg:mx-24 snap-start">
+      <h1 class="text-7xl md:text-8xl lg:text-9xl  text-blue-600 font-extrabold">
         Arkhatic, 
       </h1>
 
-      <h1 class="text-6xl text-white font-extrabold">
+      <h1 class="text-5xl md:text-6xl dark:text-white text-black font-extrabold">
         award-winning <br>
         composer and scorer.
       </h1>
 
-      <a href="https://linktree.com/arkhatic" class="mt-4 text-xl text-blue-600 font-extrabold">@arkhatic</a>
+      <a href="https://linktree.com/arkhatic" class="mt-4 text-2xl text-blue-600 font-extrabold">@arkhatic</a>
     </div>
   </div>
 
+  <div class="bg-yellow-800 h-auto p-24 text-center">
+    <h1 class="text-3xl lg:text-4xl text-white font-extrabold">
+      <span class="italic">Tip:</span> hover the mouse or touch over the left to reveal the menu.</h1>
+  </div> 
+
   <!-- about page -->
-  <div class="bg-white h-auto p-24 snap-start" id="about">
+  <div class="bg-neutral-200 h-screen lg:h-auto p-12 lg:p-24 snap-start" id="about">
     <div class="flex flex-col text-left">
-      <h1 class="text-8xl text-black font-extrabold">
+      <h1 class="text-6xl md:text-7xl xl:text-8xl text-black font-extrabold">
         I have been always learning alone.
       </h1>
       
       <div class="flex flex-row mt-4">
-        <p class="text-3xl text-black font-bold mt-4">
+        <p class="text-2xl lg:text-3xl text-black font-bold mt-4">
           Nothing is easy. <br> <br>
           
-          Years ago, I decided to study music, without having a tip of how difficult it really is. Without any support from my parents, I kept pressing on even when the times hardened out quite a lot. <br> <br>
+          Years ago, I decided to study music, without having a tip of how difficult it really is. Without any support from my parents, I kept pressing on even when the times hardened quite a lot. <br> <br>
 
           When I got my first job as a composer, I felt, for the first time, <br> 
           <span class="text-blue-800">a glance of happiness</span>.<br>
 
-          So that is me, a ship who doens't stop sailing, even when the sea is rough. <br> <br>
+          So that is me, a ship who doesn't stop sailing, even when the sea is rough. <br> <br>
           In other words, an <span class="text-blue-800">ark</span>.
         </p>
       </div>
@@ -43,17 +48,17 @@
   </div>  
 
   <!-- partners page -->
-  <div class="min-h-screen bg-green-100 p-24 flex flex-col snap-start" id="partners">
+  <div class="min-h-screen bg-green-100 p-12 lg:p-24 flex flex-col snap-start" id="partners">
     <div>
-      <h1 class="text-7xl text-green-700 font-black">Fortunately, I don't work alone anymore.</h1>
+      <h1 class="text-5xl lg:text-6xl xl:text-7xl text-green-700 font-black">Fortunately, I don't work alone anymore.</h1>
 
-      <h2 class="text-4xl text-black font-extrabold mt-4">
-        A <span class="text-green-600 text-5xl">huge</span> thanks to the guys below for helping me get into places I did not know were possible to reach and to overcome the challenges of every day. ❤️
+      <h2 class="text-3xl lg:text-4xl text-black font-extrabold mt-8 lg:mt-4">
+        A <span class="text-green-600 text-4xl lg:text-5xl">huge</span> thanks to the guys below for helping me get into places I did not know were possible to reach and to overcome the challenges of every day. ❤️
       </h2>
     </div>
 
     <div class="flex h-full flex-grow flex-col justify-center items-center">
-      <div class="h-full grid grid-cols-3 grid-rows-1 gap-12 items-center justify-center">
+      <div class="h-full mt-8 grid grid-cols-1 grid-rows-3 px-0 md:px-24 lg:mt-0 lg:p-0 lg:grid-cols-3 lg:grid-rows-1 gap-8 lg:gap-12 items-center justify-center">
         <a href="https://pesadelum.com">
           <img 
             class="w-full filter grayscale hover:grayscale-0 rounded-xl"
@@ -77,7 +82,7 @@
 
   <!-- divisory -->
   <div class="bg-blue-800 h-auto p-24 text-center">
-    <h1 class="text-7xl text-white font-extrabold">Let us look at some of <span class="italic">my</span> projects.</h1>
+    <h1 class="text-5xl lg:text-7xl text-white font-extrabold">Let us look at some of <span class="italic">my</span> projects.</h1>
   </div> 
 
   <!-- the undead commander -->
@@ -86,21 +91,21 @@
       src="https://cdn.cnn.com/cnnnext/dam/assets/140828132531-01-world-war-ii-0828.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
-    <h1 class="text-white text-8xl font-extrabold z-0">The Undead Commander</h1>
+    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">The Undead Commander</h1>
 
     <div class="z-40 w-screen mt-2">
       <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033707650355048458/Marta.wav" />
     </div>
   </div>
 
-  <div class="bg-black flex flex-col p-24 snap-start">
+  <div class="bg-black flex flex-col px-12 py-24 lg:px-24 snap-start">
     <h1 
-      class="text-white text-7xl font-details text-center">
+      class="text-white text-5xl lg:text-7xl font-details text-center">
       In modern warfare, there are no victors; <br> 
       there are only survivors.
     </h1>
 
-    <p class="text-white text-4xl font-details text-center mt-8">
+    <p class="text-white text-3xl lg:text-4xl font-details text-center mt-8 leading-snug">
       When I am composing a song, I like to imagine a story behind it. <br> <br>
       This is the story of a commander who was killed in the battlefield, but was brought back to life.<br>
       Even dead, the soldier's only thoughts are of protecting home, <br>
@@ -125,14 +130,14 @@
     </div>
   </div>
 
-  <div class="bg-purple-100 flex flex-col p-24 snap-start">
+  <div class="bg-purple-100 flex flex-col px-12 py-24 lg:px-24 snap-start">
     <h1 
-      class="text-purple-700 text-7xl font-display font-black">
+      class="text-purple-700 text-5xl lg:text-7xl font-display font-black">
       Clouds dwelings, <br>
       the sky is the limit.
     </h1>
 
-    <p class="text-purple-black text-4xl font-details mt-8">
+    <p class="text-purple-black text-3xl lg:text-4xl font-body mt-8 leading-snug">
       Everyday I look thought the window and see the clouds. <br> <br>
       I wonder what they are thinking, what they are doing. <br> 
       I wonder if they are happy, if they are sad. <br>
@@ -146,15 +151,16 @@
 
   <!-- divisory -->
   <div class="bg-orange-700 h-auto p-24 text-center">
-    <h1 class="text-7xl text-white font-extrabold">Soundscapes ahead!</h1>
+    <h1 class="text-5xl lg:text-6xl xl:text-7xl text-white font-extrabold">Soundscapes ahead!</h1>
   </div> 
 
-  <!-- winter -->
-  <div class="flex h-screen w-screen flex-rows snap-start" id="soundscapes">
-    <div class="bg-black w-[50vw] h-screen flex flex-col justify-center items-center text-center">
+  <!-- soundscapes -->
+  <div class="h-[200vh] xl:flex xl:h-screen xl:w-screen xl:flex-row snap-start" id="soundscapes">
+    <!-- winter -->
+    <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center">
       <img 
         src="https://wallup.net/wp-content/uploads/2016/03/10/340880-fantasy_art-landscape.jpg" 
-        class="w-[50vw] h-full object-cover opacity-50 absolute z-10 ">
+        class="w-screen xl:w-[50vw] h-full object-cover opacity-50 absolute z-10 ">
 
       <h1 class="text-white text-8xl font-extrabold z-0">Winter</h1>
 
@@ -163,10 +169,11 @@
       </div>
     </div>
 
-    <div class="bg-black w-[50vw] h-full flex flex-col justify-center items-center text-center ">
+    <!-- dungeon -->
+    <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center snap-start xl:snap-none">
       <img 
         src="https://images4.alphacoders.com/283/283686.jpg" 
-        class="w-[50vw] h-full object-cover opacity-50 absolute z-10 ">
+        class="w-screen xl:w-[50vw] h-screen object-cover opacity-50 absolute z-10 ">
 
       <h1 class="text-white text-8xl font-extrabold z-0">Dungeon</h1>
 
@@ -176,11 +183,12 @@
     </div>
   </div>
 
-  <div class="flex h-screen w-screen flex-rows snap-start">
-    <div class="bg-black w-[50vw] h-screen flex flex-col justify-center items-center text-center">
+  <!-- sea -->
+  <div class="h-[200vh] xl:flex xl:h-screen xl:w-screen xl:flex-row snap-start">
+    <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center">
       <img 
         src="https://cdn.wallpapersafari.com/0/62/1PULhg.jpg" 
-        class="w-[50vw] h-full object-cover opacity-50 absolute z-10 ">
+        class="w-screen xl:w-[50vw] h-screen object-cover opacity-50 absolute z-10 ">
 
       <h1 class="text-white text-8xl font-extrabold z-0">Sea</h1>
 
@@ -189,10 +197,11 @@
       </div>
     </div>
 
-    <div class="bg-black w-[50vw] h-full flex flex-col justify-center items-center text-center">
+    <!-- wise fields -->
+    <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center snap-start xl:snap-none">
       <img 
         src="https://i.pinimg.com/originals/26/8c/9e/268c9e01c025c8c1a18e2450d37834d8.jpg" 
-        class="w-[50vw] h-full object-cover opacity-50 absolute z-10 ">
+        class="w-screen xl:w-[50vw] h-screen object-cover opacity-50 absolute z-10 ">
 
       <h1 class="text-white text-8xl font-extrabold z-0">Wise Fields</h1>
 
@@ -202,32 +211,33 @@
     </div>
   </div>
 
-  <div class="min-h-screen bg-blue-50 p-24 flex flex-col text-center justify-center align-center snap-start" id="contact">
-    <h1 class="text-blue-700 font-black text-8xl m-0 p-0 ">
+  <!-- contact -->
+  <div class="min-h-screen bg-blue-50 px-12 py-24 lg:px-24 flex flex-col text-center justify-center align-center snap-start" id="contact">
+    <h1 class="text-blue-700 font-black text-6xl lg:text-7xl xl:text-8xl m-0 p-0 ">
       That was a ride, wasn't it?
     </h1>
 
-    <p class="text-black font-bold text-4xl mt-4">
+    <p class="text-black font-bold text-3xl lg:text-4xl mt-4">
       I hope you enjoyed as much as I did making this website. <br>
       If you want to contact me, send me a message on Discord or an email. <br>
       I am always open to new projects and collaborations. <br>
       <span class="text-blue-600 font-black">I hope your light shines!</span> <br>
     </p>
 
-    <div class="mt-24 mx-auto sm:w-full md:w-full lg:w-4/6 2xl:w-1/2 flex-grow flex flex-row items-center justify-between">
+    <div class="mt-24 mx-auto w-full lg:w-4/6 2xl:w-1/2 flex-grow flex flex-col lg:flex-row items-center justify-between">
       <a href="https://discord.gg/km5rfvBdcZ" target="_blank" class="">
         <button 
-          class="h-72 w-72 bg-white rounded-[2.5rem] flex flex-col items-center justify-center text-center text-xl font-bold text-[#5865F2] shadow-2xl hover:shadow-sm">
+          class="h-64 w-64 lg:h-72 lg:w-72 bg-white rounded-[2.5rem] flex flex-col items-center justify-center text-center text-xl font-bold text-[#5865F2] shadow-2xl hover:shadow-sm">
           <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/62595384e89d1d54d704ece7_3437c10597c1526c3dbd98c737c2bcae.svg" class="w-24 h-24 m-0" />
           Join my Discord!
         </button>
       </a>
 
-      <div class="w-2 h-96 bg-[#5865F2]"></div>
+      <div class="w-96 h-2 my-12 lg:w-2 lg:h-96 lg:my-0 lg:mx-12 bg-[#5865F2]"></div>
 
       <a href="mailto:arkhatic.sousa@gmail.com" target="_blank" class="">
         <button 
-          class="h-72 w-72 bg-white rounded-[2.5rem] flex flex-col items-center justify-center text-center text-xl font-bold text-[#5865F2] shadow-2xl hover:shadow-sm">
+          class="h-64 w-64 lg:h-72 lg:w-72 bg-white rounded-[2.5rem] flex flex-col items-center justify-center text-center text-xl font-bold text-[#5865F2] shadow-2xl hover:shadow-sm">
           <img src="https://cdn.discordapp.com/attachments/853715361568129054/1033805220553175050/free-mail-icon-142-thumb.png" class="w-24 h-24 m-0" />
           Send me an email!
         </button>
