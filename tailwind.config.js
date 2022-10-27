@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Poppins', 'system-ui', 'sans-serif'],
         body: ['Inter', 'system-ui', 'sans-serif'],
         details: ['Prata', 'serif']
       },

@@ -11,3 +11,8 @@ html, * {
 ::-webkit-scrollbar {
   width: 0;
 }
+
+@font-face {
+  font-family: 'Futura';
+  src: url('../fonts/FuturaRenner-Regular.otf');
+}

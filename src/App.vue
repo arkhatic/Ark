@@ -1,12 +1,10 @@
 <template>
   <Sidebar />
   <!-- landing page -->
-  <!-- TODO: mobile version -->
-  <!-- TODO: scroll lock -->
   <div className="absolute snap-proximity snap-y overflow-y-scroll overflow-x-hidden h-screen w-screen">
   <div class="dark:bg-black bg-white h-screen snap-start" id="home">
     <div class="flex flex-col justify-center h-full mx-12 text-center items-center lg:items-start xl:text-left lg:mx-24 snap-start">
-      <h1 class="text-7xl md:text-8xl lg:text-9xl  text-blue-600 font-extrabold">
+      <h1 class="text-7xl md:text-8xl lg:text-9xl  text-blue-600 font-display font-black">
         Arkhatic, 
       </h1>
 
@@ -27,8 +25,8 @@
   <!-- about page -->
   <div class="bg-neutral-200 h-screen lg:h-auto p-12 lg:p-24 snap-start" id="about">
     <div class="flex flex-col text-left">
-      <h1 class="text-6xl md:text-7xl xl:text-8xl text-black font-extrabold">
-        I have been always learning alone.
+      <h1 class="text-6xl md:text-7xl xl:text-8xl text-black font-extrabold font-display">
+        I have always been learning alone.
       </h1>
       
       <div class="flex flex-row mt-4">
@@ -50,7 +48,7 @@
   <!-- partners page -->
   <div class="min-h-screen bg-green-100 p-12 lg:p-24 flex flex-col snap-start" id="partners">
     <div>
-      <h1 class="text-5xl lg:text-6xl xl:text-7xl text-green-700 font-black">Fortunately, I don't work alone anymore.</h1>
+      <h1 class="text-5xl lg:text-6xl xl:text-7xl text-green-700 font-black font-display">Fortunately, I don't work alone anymore.</h1>
 
       <h2 class="text-3xl lg:text-4xl text-black font-extrabold mt-8 lg:mt-4">
         A <span class="text-green-600 text-4xl lg:text-5xl">huge</span> thanks to the guys below for helping me get into places I did not know were possible to reach and to overcome the challenges of every day. ❤️
@@ -132,8 +130,8 @@
 
   <div class="bg-purple-100 flex flex-col px-12 py-24 lg:px-24 snap-start">
     <h1 
-      class="text-purple-700 text-5xl lg:text-7xl font-display font-black">
-      Clouds dwelings, <br>
+      class="text-purple-700 text-5xl lg:text-8xl font-body font-extrabold">
+      Cloud dweller, <br>
       the sky is the limit.
     </h1>
 
