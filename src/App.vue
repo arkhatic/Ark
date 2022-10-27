@@ -23,7 +23,7 @@
   </div> 
 
   <!-- about page -->
-  <div class="bg-blue-200 h-screen lg:h-auto p-12 lg:p-24 snap-start" id="about">
+  <div class="bg-neutral-200 h-screen lg:h-auto p-12 lg:p-24 snap-start" id="about">
     <div class="flex flex-col text-left">
       <h1 class="text-6xl md:text-7xl xl:text-8xl text-black font-extrabold font-display">
         I have always been learning alone.
@@ -36,10 +36,10 @@
           Years ago, I decided to study music, without having a tip of how difficult it really is. Without any support from my parents, I kept pressing on even when the times hardened quite a lot. <br> <br>
 
           When I got my first job as a composer, I felt, for the first time, <br> 
-          <span class="text-blue-800">a glance of happiness</span>.<br>
+          <span class="text-netral-400">a glance of happiness</span>.<br>
 
           So that is me, a ship who doesn't stop sailing, even when the sea is rough. <br> <br>
-          In other words, an <span class="text-blue-800">ark</span>.
+          In other words, an <span class="text-netral-400">ark</span>.
         </p>
       </div>
     </div>  
