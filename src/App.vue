@@ -36,10 +36,10 @@
           Years ago, I decided to study music, without having a tip of how difficult it really is. Without any support from my parents, I kept pressing on even when the times hardened quite a lot. <br> <br>
 
           When I got my first job as a composer, I felt, for the first time, <br> 
-          <span class="text-netral-400">a glance of happiness</span>.<br>
+          <span class="text-neutral-500">a glance of happiness</span>.<br>
 
           So that is me, a ship who doesn't stop sailing, even when the sea is rough. <br> <br>
-          In other words, an <span class="text-netral-400">ark</span>.
+          In other words, an <span class="text-neutral-500">ark</span>.
         </p>
       </div>
     </div>  
