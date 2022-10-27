@@ -23,7 +23,7 @@
   </div> 
 
   <!-- about page -->
-  <div class="bg-neutral-200 h-screen lg:h-auto p-12 lg:p-24 snap-start" id="about">
+  <div class="bg-blue-200 h-screen lg:h-auto p-12 lg:p-24 snap-start" id="about">
     <div class="flex flex-col text-left">
       <h1 class="text-6xl md:text-7xl xl:text-8xl text-black font-extrabold font-display">
         I have always been learning alone.
