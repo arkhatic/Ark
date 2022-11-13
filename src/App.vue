@@ -170,10 +170,10 @@
     <!-- dungeon -->
     <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center snap-start xl:snap-none">
       <img 
-        src="https://images4.alphacoders.com/283/283686.jpg" 
+        src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/home/reveal/new-era/new_era-features.jpg" 
         class="w-screen xl:w-[50vw] h-screen object-cover opacity-50 absolute z-10 ">
 
-      <h1 class="text-white text-8xl font-extrabold z-0">Dungeon</h1>
+      <h1 class="text-white text-8xl font-extrabold z-0">Battle</h1>
 
       <div class="z-40 w-full mt-2">
         <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033793622321135626/Solo_of_the_Sea.wav" />
