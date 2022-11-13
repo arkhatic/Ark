@@ -176,7 +176,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Battle</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033793622321135626/Solo_of_the_Sea.wav" />
+        <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1041443658949472346/Arise.wav" />
       </div>
     </div>
   </div>
