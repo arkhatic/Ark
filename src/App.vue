@@ -97,8 +97,20 @@
 
   <!-- divisory -->
   <div class="bg-blue-800 h-auto p-24 text-center">
-    <h1 class="text-5xl text-white font-extrabold">Let us look at some of <span class="italic">my</span> projects.</h1>
+    <h1 class="text-5xl text-white font-extrabold">Then I present to you, my flagship songs.</h1>
   </div> 
+
+  <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="ark">
+    <img 
+      src="https://cdn.discordapp.com/attachments/854924714245226497/1094286149989703710/Solo_of_the_Sea.png" 
+      class="w-full h-full object-cover opacity-50 absolute z-10 ">
+
+    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Suspension</h1>
+
+    <div class="z-40 w-screen mt-2">
+      <MusicPlayer source="https://cdn.discordapp.com/attachments/763415124509196290/1094260190293016698/Solo_of_the_Sea.mp3" />
+    </div>
+  </div>
 
   <!-- the undead commander -->
   <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="undead-commander">
@@ -163,18 +175,6 @@
       ☀️☀️☀️
     </p>
   </div>
-
-  <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="solo">
-    <img 
-      src="https://images6.alphacoders.com/843/thumb-1920-843864.jpg" 
-      class="w-full h-full object-cover opacity-50 absolute z-10 ">
-
-    <h1 class="text-white text-8xl font-extrabold z-0">Solo of the Sea</h1>
-
-    <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="https://cdn.discordapp.com/attachments/763415124509196290/1094260190293016698/Solo_of_the_Sea.mp3" />
-    </div>
-  </div> 
 
   <!-- divisory -->
   <div class="bg-blue-700 h-auto p-24 text-center">
