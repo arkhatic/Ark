@@ -63,7 +63,7 @@
   </div>  
 
   <!-- partners page -->
-  <div class="min-h-screen bg-green-100 p-12 lg:p-24 flex flex-col snap-start" id="partners">
+  <div class="min-h-screen bg-green-100 p-12 lg:p-24 flex flex-col" id="partners">
     <div>
       <h1 class="text-5xl lg:text-6xl xl:text-7xl text-green-700 font-black font-display">Fortunately, I don't work alone anymore.</h1>
 
