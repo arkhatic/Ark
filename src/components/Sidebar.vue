@@ -25,13 +25,19 @@
           <h1 class="text-neutral-500 font-bold text-2xl">
             Projects
           </h1>
-          <a href="#undead-commander" class="text-blue-100 font-bold text-2xl border-slate-50 mb-4 hover:text-blue-700">
+          <a href="#solo" class="text-blue-100 font-bold text-2xl border-slate-50 mb-2 hover:text-blue-700">
+            Solo of the Sea
+          </a>
+          <a href="#angels" class="text-blue-100 font-bold text-2xl border-slate-50 mb-2 hover:text-blue-700">
+            Angels
+          </a>
+          <a href="#undead-commander" class="text-blue-100 font-bold text-2xl border-slate-50 mb-2 hover:text-blue-700">
             Commander
           </a>
-          <a href="#awoken" class="text-blue-100 font-bold text-2xl border-slate-50 mb-4 hover:text-blue-700">
+          <a href="#awoken" class="text-blue-100 font-bold text-2xl border-slate-50 mb-2 hover:text-blue-700">
             Awoken
           </a>
-          <a href="#soundscapes" class="text-blue-100 font-bold text-2xl border-slate-50 mb-4 hover:text-blue-700">
+          <a href="#soundscapes" class="text-blue-100 font-bold text-2xl border-slate-50 mb-2 hover:text-blue-700">
             Soundscapes
           </a>
 

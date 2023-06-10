@@ -100,15 +100,27 @@
     <h1 class="text-5xl text-white font-extrabold">Then I present to you, my flagship songs.</h1>
   </div> 
 
-  <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="ark">
+  <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="solo">
     <img 
-      src="https://cdn.discordapp.com/attachments/854924714245226497/1094286149989703710/Solo_of_the_Sea.png" 
+      src="https://w.wallhaven.cc/full/76/wallhaven-7669r9.png" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
-    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Suspension</h1>
+    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Solo of the Sea</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="https://cdn.discordapp.com/attachments/763415124509196290/1094260190293016698/Solo_of_the_Sea.mp3" />
+      <MusicPlayer source="https://cdn.discordapp.com/attachments/1117080918344093796/1117080918708985896/01_-_Arkhatic_-_Solo_of_the_Sea_-_Orchestra.mp3" />
+    </div>
+  </div>
+
+  <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="angels">
+    <img 
+      src="https://rare-gallery.com/uploads/posts/4586501-fantasy-art-fantasy-city-war-battle.jpg" 
+      class="w-full h-full object-cover opacity-50 absolute z-10 ">
+
+    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Angels</h1>
+
+    <div class="z-40 w-screen mt-2">
+      <MusicPlayer source="https://cdn.discordapp.com/attachments/1116890333071028264/1116890333393977455/Angels.mp3" />
     </div>
   </div>
 
@@ -183,26 +195,26 @@
 
   <!-- soundscapes -->
   <div class="h-[200vh] xl:flex xl:h-screen xl:w-screen xl:flex-row snap-start" id="soundscapes">
+    <img 
+        src="https://wallpapercrafter.com/desktop/140887-fantasy-art-spear-medieval-castle.jpg" 
+        class="w-screen h-screen object-cover opacity-50 absolute z-10 ">
     <!-- winter -->
-    <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center">
-      <img 
-        src="https://wallup.net/wp-content/uploads/2016/03/10/340880-fantasy_art-landscape.jpg" 
-        class="w-screen xl:w-[50vw] h-full object-cover opacity-50 absolute z-10 ">
+    <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center snap-start xl:snap-none">  
 
-      <h1 class="text-white text-8xl font-extrabold z-0">Winter</h1>
+      <h1 class="text-white text-8xl font-extrabold z-0">Warfare</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033787829228150925/Ambiance_without_perc.mp3" />
+        <MusicPlayer source="https://cdn.discordapp.com/attachments/1091778371928727664/1091779702626205896/The_Deadlift.mp3" />
       </div>
     </div>
 
     <!-- dungeon -->
     <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center snap-start xl:snap-none">
-      <img 
-        src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/home/reveal/new-era/new_era-features.jpg" 
-        class="w-screen xl:w-[50vw] h-screen object-cover opacity-50 absolute z-10 ">
 
       <h1 class="text-white text-8xl font-extrabold z-0">Battle</h1>
+      <img 
+        src="https://i.pinimg.com/originals/1b/03/e0/1b03e03c6848859eeb7d18756488abce.jpg" 
+        class="w-screen xl:w-[0vw] h-screen object-cover opacity-50 absolute z-10 ">
 
       <div class="z-40 w-full mt-2">
         <MusicPlayer source="https://cdn.discordapp.com/attachments/1091778371928727664/1091779703024660531/Gods.mp3" />
@@ -241,7 +253,7 @@
   <div class="h-[200vh] xl:flex xl:h-screen xl:w-screen xl:flex-row snap-start">
     <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center">
       <img 
-        src="https://rare-gallery.com/uploads/posts/965957-temple-fantasy-art-artwork-landscape-mountains.jpg" 
+        src="https://mdrportfolio.files.wordpress.com/2011/02/mountain-temple.jpg" 
         class="w-screen xl:w-[50vw] h-screen object-cover opacity-50 absolute z-10 ">
 
       <h1 class="text-white text-8xl font-extrabold z-0">Temple</h1>
@@ -251,16 +263,15 @@
       </div>
     </div>
 
-    <!-- wise fields -->
-    <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center snap-start xl:snap-none">
+    <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center">
       <img 
-        src="https://i.pinimg.com/originals/1b/03/e0/1b03e03c6848859eeb7d18756488abce.jpg" 
-        class="w-screen xl:w-[50vw] h-screen object-cover opacity-50 absolute z-10 ">
+        src="https://wallup.net/wp-content/uploads/2016/03/10/340880-fantasy_art-landscape.jpg" 
+        class="w-screen xl:w-[50vw] h-full object-cover opacity-50 absolute z-10 ">
 
-      <h1 class="text-white text-8xl font-extrabold z-0">Warfare</h1>
+      <h1 class="text-white text-8xl font-extrabold z-0">Winter</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1091778371928727664/1091779702626205896/The_Deadlift.mp3" />
+        <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033787829228150925/Ambiance_without_perc.mp3" />
       </div>
     </div>
   </div>
