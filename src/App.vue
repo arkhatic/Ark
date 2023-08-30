@@ -55,12 +55,38 @@
           <br>
 
           I have also worked on a few other projects, but I can't talk about them yet. 😅 <br>
-          Apart from orchestral music, I have a background with rock/metal, electronic, and ambient music. I am also a sound designer and a sound engineer.
+          <br>
+          <h2 class="text-4xl text-black font-black mb-2">Apart from composing,</h2>
+          <p>
+            I am a game developer experienced in Unity, Godot and GameMaker, everything from procedural generation to AI programming, with 3 years of experience; <br>
+            I also have experience in web development, having worked with Vue.js, React.js and its variations, and Node.js; <br>
+
+            And a <span class="text-red-500">huge</span> fan of the <span class="text-blue-500">fantasy</span> genre, and I love to read books and play games. <br>
+
+
+          </p> 
 
         </p>
       </div>
     </div>  
   </div>  
+
+  <div class="bg-black h-auto p-12 lg:p-24 w-screen" id="award">
+    <h1 class="text-5xl lg:text-6xl xl:text-7xl text-white font-black font-display">Also, in 2022, I won the Hacelo Corto award for the best film score!</h1>
+    <h2 class="text-2xl text-white font-bold mt-4 max-w-full">Hacelo Corto is a festival of short films hosted in Buenos Aires, Argentina. <br>
+    Our film, Sonitus, won the award for the best score and special mention of the Jury, for its creative drama and emotive all-out soundtrack. <br>
+    But, it would not be possible without the help of my team 💖 </h2>
+
+    <h1 class="text-3xl text-black font-black text-white my-3">Hear the OST below!</h1>
+    <div class="bg-black py-10 flex flex-col justify-center items-center text-center rounded-xl bg-yelllow-600">
+      <h1 class="text-white px-12 text-4xl lg:text-4xl font-extrabold z-0">Sonitus</h1>
+
+      <div class="z-40 w-screen mt-2">
+        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146403851352682636/1146406420263211049/01_-_Unknown_Artist_-_Duet_unmixed.mp3" />
+      </div>
+    </div>
+
+  </div>
 
   <!-- partners page -->
   <div class="min-h-screen bg-green-100 p-12 lg:p-24 flex flex-col" id="partners">
@@ -114,7 +140,7 @@
 
   <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="angels">
     <img 
-      src="https://rare-gallery.com/uploads/posts/4586501-fantasy-art-fantasy-city-war-battle.jpg" 
+      src="https://cdn.discordapp.com/attachments/1146407169508515870/1146407258721370193/4586501-fantasy-art-fantasy-city-war-battle.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
     <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Angels</h1>
@@ -196,7 +222,7 @@
   <!-- soundscapes -->
   <div class="h-[200vh] xl:flex xl:h-screen xl:w-screen xl:flex-row snap-start" id="soundscapes">
     <img 
-        src="https://wallpapercrafter.com/desktop/140887-fantasy-art-spear-medieval-castle.jpg" 
+        src="https://cdn.discordapp.com/attachments/1146407169508515870/1146407451294433351/140887-fantasy-art-spear-medieval-castle.jpg" 
         class="w-screen h-screen object-cover opacity-50 absolute z-10 ">
     <!-- winter -->
     <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center snap-start xl:snap-none">  
@@ -204,7 +230,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Warfare</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1091778371928727664/1091779702626205896/The_Deadlift.mp3" />
+        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146408667235754005/1146408667877486632/Mixdown_1.mp3" />
       </div>
     </div>
 
@@ -217,7 +243,7 @@
         class="w-screen xl:w-[0vw] h-screen object-cover opacity-50 absolute z-10 ">
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1091778371928727664/1091779703024660531/Gods.mp3" />
+        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146408536155365498/1146408536876789831/Gods_Plugged.mp3" />
       </div>
     </div>
   </div>
@@ -226,13 +252,13 @@
   <div class="h-[200vh] xl:flex xl:h-screen xl:w-screen xl:flex-row snap-start">
     <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center">
       <img 
-        src="https://cdn.wallpapersafari.com/0/62/1PULhg.jpg" 
+        src="https://images.nationalgeographic.org/image/upload/v1639146339/EducationHub/photos/pillars-of-creation.jpg" 
         class="w-screen xl:w-[50vw] h-screen object-cover opacity-50 absolute z-10 ">
 
-      <h1 class="text-white text-8xl font-extrabold z-0">Sea</h1>
+      <h1 class="text-white text-8xl font-extrabold z-0">Space</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033798112671707206/Epic_but_Gentle.wav" />
+        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146410086546296832/1146410086940545097/Insolation.mp3" />
       </div>
     </div>
 
@@ -245,7 +271,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Wise Fields</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033793736817266770/Kenmeina_bunya.wav" />
+        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146409704491327488/1146409704839462962/01_-_Unknown_Artist_-_Kenmeina_bunya.mp3" />
       </div>
     </div>
   </div>
@@ -259,7 +285,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Temple</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1091778371928727664/1091779704463302757/Insolidus.mp3" />
+        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146409302500851742/1146409303142576168/Insolidus.mp3" />
       </div>
     </div>
 
