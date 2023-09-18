@@ -138,6 +138,18 @@
     </div>
   </div>
 
+  <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="record">
+    <img 
+      src="https://cutewallpaper.org/21/fantasy-hd-wallpaper/Fantasy-Art-Wallpapers-HD-PixelsTalkNet.jpg" 
+      class="w-full h-full object-cover opacity-50 absolute z-10 ">
+
+    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">For the Record</h1>
+
+    <div class="z-40 w-screen mt-2">
+      <MusicPlayer source="https://cdn.discordapp.com/attachments/1153341833942937621/1153341835389964389/01_-_Arkhatic_-_For_the_Record.mp3" />
+    </div>
+  </div>
+
   <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="angels">
     <img 
       src="https://cdn.discordapp.com/attachments/1146407169508515870/1146407258721370193/4586501-fantasy-art-fantasy-city-war-battle.jpg" 

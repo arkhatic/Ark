@@ -28,6 +28,9 @@
           <a href="#solo" class="text-blue-100 font-bold text-2xl border-slate-50 mb-2 hover:text-blue-700">
             Solo of the Sea
           </a>
+          <a href="#record" class="text-blue-100 font-bold text-2xl border-slate-50 mb-2 hover:text-blue-700">
+            For the Record
+          </a>
           <a href="#angels" class="text-blue-100 font-bold text-2xl border-slate-50 mb-2 hover:text-blue-700">
             Angels
           </a>
