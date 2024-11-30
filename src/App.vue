@@ -71,7 +71,7 @@
     </div>  
   </div>  
 
-  <div class="bg-black h-auto p-12 lg:p-24 w-screen" id="award">
+  <div class="bg-red-900 h-auto p-12 lg:p-24 w-screen" id="award">
     <h1 class="text-5xl lg:text-6xl xl:text-7xl text-white font-black font-display">Also, in 2022, I won the Hacelo Corto award for the best film score!</h1>
     <h2 class="text-2xl text-white font-bold mt-4 max-w-full">Hacelo Corto is a festival of short films hosted in Buenos Aires, Argentina. <br>
     Our film, Sonitus, won the award for the best score and special mention of the Jury, for its creative drama and emotive all-out soundtrack. <br>
@@ -89,34 +89,21 @@
   </div>
 
   <!-- partners page -->
-  <div class="min-h-screen bg-green-100 p-12 lg:p-24 flex flex-col" id="partners">
+  <div class="min-h-screen bg-black p-12 lg:p-24 flex flex-col" id="partners">
     <div>
-      <h1 class="text-5xl lg:text-6xl xl:text-7xl text-green-700 font-black font-display">Fortunately, I don't work alone anymore.</h1>
+      <h1 class="text-5xl lg:text-6xl xl:text-7xl text-green-700 font-black font-display">Now, I have another job as well.</h1>
 
-      <h2 class="text-3xl text-black font-extrabold mt-8 lg:mt-4">
-        A <span class="text-green-600 text-4xl">huge</span> thanks to the guys below for helping me get into places I did not know were possible to reach and to overcome the challenges of every day. ❤️
+      <h2 class="text-3xl text-white font-extrabold mt-8 lg:mt-4">
+        Being a military together with being a composer is a challenge I did not know how to face. <br>
+        Nevertheless, We do press on as much as we can.
       </h2>
     </div>
 
     <div class="flex h-full flex-grow flex-col justify-center items-center">
-      <div class="h-full mt-8 grid grid-cols-1 grid-rows-3 px-0 md:px-24 lg:mt-0 lg:p-0 lg:grid-cols-3 lg:grid-rows-1 gap-8 lg:gap-12 items-center justify-center">
-        <a href="https://pesadelum.com">
-          <img 
-            class="w-full filter grayscale hover:grayscale-0 rounded-xl"
-            src="https://cdn.discordapp.com/attachments/853715361568129054/1033771155590484088/PESADELUM_2.webp" />
-        </a>
-
-        <a href="https://wonderacid.web.app">
-          <img 
-            class="w-full filter grayscale hover:grayscale-0 rounded-xl"
-            src="https://cdn.discordapp.com/attachments/853715361568129054/1033771276206100581/logo-squared.png" />
-        </a>
-
-        <a href="https://watashipx.com/raifuejji">
-          <img 
-            class="w-full filter grayscale hover:grayscale-0 rounded-xl"
-            src="https://cdn.discordapp.com/attachments/853715361568129054/1033771310158987416/sky_raiders.png" />
-        </a>
+      <div class="h-full mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-2 xl:grid-cols-4 lg:grid-rows-1 grid-rows-3 items-center justify-center">
+        <img src="@\assets\images\inspection.jpg" class="w-full h-full object-cover">
+        <img src="@\assets\images\guerra1.jpg" class="w-full h-full object-cover">
+        <img src="@\assets\images\guerra2.jpg" class="w-full h-full object-cover">
       </div>
     </div>
   </div>
@@ -140,7 +127,7 @@
 
   <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="record">
     <img 
-      src="https://cutewallpaper.org/21/fantasy-hd-wallpaper/Fantasy-Art-Wallpapers-HD-PixelsTalkNet.jpg" 
+      src="https://i.pinimg.com/originals/b7/68/b3/b768b3f7dbbc202d280e0f95c46dfb64.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
     <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">For the Record</h1>
@@ -152,7 +139,7 @@
 
   <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="angels">
     <img 
-      src="https://cdn.discordapp.com/attachments/1146407169508515870/1146407258721370193/4586501-fantasy-art-fantasy-city-war-battle.jpg" 
+      src="https://images4.alphacoders.com/177/thumb-1920-177128.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
     <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Angels</h1>
@@ -234,7 +221,7 @@
   <!-- soundscapes -->
   <div class="h-[200vh] xl:flex xl:h-screen xl:w-screen xl:flex-row snap-start" id="soundscapes">
     <img 
-        src="https://cdn.discordapp.com/attachments/1146407169508515870/1146407451294433351/140887-fantasy-art-spear-medieval-castle.jpg" 
+        src="https://images2.alphacoders.com/104/1048540.jpg" 
         class="w-screen h-screen object-cover opacity-50 absolute z-10 ">
     <!-- winter -->
     <div class="bg-black w-screen xl:w-[50vw] h-screen flex flex-col justify-center items-center text-center snap-start xl:snap-none">  
