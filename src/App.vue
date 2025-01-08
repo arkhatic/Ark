@@ -82,14 +82,14 @@
       <h1 class="text-white px-12 text-4xl lg:text-4xl font-extrabold z-0">Sonitus</h1>
 
       <div class="z-40 w-screen mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146403851352682636/1146406420263211049/01_-_Unknown_Artist_-_Duet_unmixed.mp3" />
+        <MusicPlayer source='/src/assets/audio/Sonitus.mp3' />
       </div>
     </div>
 
   </div>
 
   <!-- partners page -->
-  <div class="min-h-screen bg-black p-12 lg:p-24 flex flex-col" id="partners">
+  <div class="bg-black p-12 lg:p-24 flex flex-col" id="partners">
     <div>
       <h1 class="text-5xl lg:text-6xl xl:text-7xl text-green-700 font-black font-display">Now, I have another job as well.</h1>
 
@@ -97,14 +97,6 @@
         Being a military together with being a composer is a challenge I did not know how to face. <br>
         Nevertheless, We do press on as much as we can.
       </h2>
-    </div>
-
-    <div class="flex h-full flex-grow flex-col justify-center items-center">
-      <div class="h-full mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:grid-rows-2 xl:grid-cols-4 lg:grid-rows-1 grid-rows-3 items-center justify-center">
-        <img src="@\assets\images\inspection.jpg" class="w-full h-full object-cover">
-        <img src="@\assets\images\guerra1.jpg" class="w-full h-full object-cover">
-        <img src="@\assets\images\guerra2.jpg" class="w-full h-full object-cover">
-      </div>
     </div>
   </div>
 
@@ -121,7 +113,7 @@
     <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Solo of the Sea</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="https://cdn.discordapp.com/attachments/1117080918344093796/1117080918708985896/01_-_Arkhatic_-_Solo_of_the_Sea_-_Orchestra.mp3" />
+      <MusicPlayer source="/src/assets/audio/SoloSea.mp3" />
     </div>
   </div>
 
@@ -133,7 +125,7 @@
     <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">For the Record</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="https://cdn.discordapp.com/attachments/1153341833942937621/1153341835389964389/01_-_Arkhatic_-_For_the_Record.mp3" />
+      <MusicPlayer source="/src/assets/audio/Record.mp3" />
     </div>
   </div>
 
@@ -142,43 +134,24 @@
       src="https://images4.alphacoders.com/177/thumb-1920-177128.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
-    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Angels</h1>
+    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Scarborough Fair</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="https://cdn.discordapp.com/attachments/1116890333071028264/1116890333393977455/Angels.mp3" />
+      <MusicPlayer source="/src/assets/audio/Jasmine.wav" />
     </div>
   </div>
 
   <!-- the undead commander -->
   <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="undead-commander">
     <img 
-      src="https://cdn.cnn.com/cnnnext/dam/assets/140828132531-01-world-war-ii-0828.jpg" 
+      src="https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?cs=srgb&dl=pexels-stywo-1054218.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
-    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">The Undead Commander</h1>
+    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">NCS Classic</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033707650355048458/Marta.wav" />
+      <MusicPlayer source="/src/assets/audio/Appear.mp3" />
     </div>
-  </div>
-
-  <div class="bg-black flex flex-col px-12 py-24 lg:px-24 snap-start">
-    <h1 
-      class="text-white text-5xl lg:text-7xl font-details text-center">
-      In modern warfare, there are no victors; <br> 
-      there are only survivors.
-    </h1>
-
-    <p class="text-white text-3xl lg:text-4xl font-details text-center mt-8 leading-snug">
-      When I am composing a song, I like to imagine a story behind it. <br> <br>
-      This is the story of a commander who was killed in the battlefield, but was brought back to life.<br>
-      Even dead, the soldier's only thoughts are of protecting home, <br>
-      and his squad will do <span class="text-red-500">anything</span> to achieve that goal. <br>
-    </p>
-
-    <p class="text-white text-4xl font-details text-center mt-8">
-      That is how this <span class="text-yellow-300">majestic</span> and <span class="text-blue-600">sorrow</span> song was born.
-    </p>
   </div>
 
   <!-- cantus of requiem -->
@@ -187,10 +160,10 @@
       src="https://r4.wallpaperflare.com/wallpaper/432/899/621/fantasy-art-clouds-digital-art-futuristic-wallpaper-8d1bdf2ceb7791f3e2be17e2500dcba4.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
-    <h1 class="text-white text-8xl font-extrabold z-0">Awoken</h1>
+    <h1 class="text-white text-8xl font-extrabold z-0">Oizys</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033707228588425236/Cantus_of_Requiem.mp3" />
+      <MusicPlayer source="/src/assets/audio/Oizys.ogg" />
     </div>
   </div>
 
@@ -229,7 +202,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Warfare</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146408667235754005/1146408667877486632/Mixdown_1.mp3" />
+        <MusicPlayer source="/src/assets/audio/Bad.wav" />
       </div>
     </div>
 
@@ -242,7 +215,7 @@
         class="w-screen xl:w-[0vw] h-screen object-cover opacity-50 absolute z-10 ">
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146408536155365498/1146408536876789831/Gods_Plugged.mp3" />
+        <MusicPlayer source="/src/assets/audio/Gods.wav" />
       </div>
     </div>
   </div>
@@ -257,7 +230,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Space</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146410086546296832/1146410086940545097/Insolation.mp3" />
+        <MusicPlayer source="/src/assets/audio/Insolation.mp3" />
       </div>
     </div>
 
@@ -270,7 +243,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Wise Fields</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146409704491327488/1146409704839462962/01_-_Unknown_Artist_-_Kenmeina_bunya.mp3" />
+        <MusicPlayer source="/src/assets/audio/Kenmeina.mp3" />
       </div>
     </div>
   </div>
@@ -284,7 +257,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Temple</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/1146409302500851742/1146409303142576168/Insolidus.mp3" />
+        <MusicPlayer source="/src/assets/audio/Insolidus.mp3" />
       </div>
     </div>
 
@@ -296,7 +269,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Winter</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="https://cdn.discordapp.com/attachments/853715361568129054/1033787829228150925/Ambiance_without_perc.mp3" />
+        <MusicPlayer source="/src/assets/audio/Ambiance_without_perc.mp3" />
       </div>
     </div>
   </div>
