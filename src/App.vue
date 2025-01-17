@@ -82,7 +82,7 @@
       <h1 class="text-white px-12 text-4xl lg:text-4xl font-extrabold z-0">Sonitus</h1>
 
       <div class="z-40 w-screen mt-2">
-        <MusicPlayer source='/src/assets/audio/Sonitus.mp3' />
+        <MusicPlayer source='https://files.catbox.moe/mzhfsm.mp3' />
       </div>
     </div>
 
@@ -113,7 +113,7 @@
     <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Solo of the Sea</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="/src/assets/audio/SoloSea.mp3" />
+      <MusicPlayer source="https://files.catbox.moe/il53zh.mp3" />
     </div>
   </div>
 
@@ -122,10 +122,10 @@
       src="https://i.pinimg.com/originals/b7/68/b3/b768b3f7dbbc202d280e0f95c46dfb64.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
-    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">For the Record</h1>
+    <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Alloy</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="/src/assets/audio/Record.mp3" />
+      <MusicPlayer source="https://files.catbox.moe/dlqbmv.mp3" />
     </div>
   </div>
 
@@ -137,7 +137,7 @@
     <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">Scarborough Fair</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="/src/assets/audio/Jasmine.wav" />
+      <MusicPlayer source="https://files.catbox.moe/3r2ldx.wav" />
     </div>
   </div>
 
@@ -150,20 +150,20 @@
     <h1 class="text-white px-12 text-6xl lg:text-8xl font-extrabold z-0">NCS Classic</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="/src/assets/audio/Appear.mp3" />
+      <MusicPlayer source="https://files.catbox.moe/zje8gx.mp3" />
     </div>
   </div>
 
   <!-- cantus of requiem -->
   <div class="bg-black h-screen flex flex-col justify-center items-center text-center snap-start" id="awoken">
     <img 
-      src="https://r4.wallpaperflare.com/wallpaper/432/899/621/fantasy-art-clouds-digital-art-futuristic-wallpaper-8d1bdf2ceb7791f3e2be17e2500dcba4.jpg" 
+      src="@/assets/images/awoken.jpg" 
       class="w-full h-full object-cover opacity-50 absolute z-10 ">
 
     <h1 class="text-white text-8xl font-extrabold z-0">Oizys</h1>
 
     <div class="z-40 w-screen mt-2">
-      <MusicPlayer source="/src/assets/audio/Oizys.ogg" />
+      <MusicPlayer source="https://files.catbox.moe/l7hzyl.ogg" />
     </div>
   </div>
 
@@ -202,7 +202,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Warfare</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="/src/assets/audio/Bad.wav" />
+        <MusicPlayer source="https://files.catbox.moe/ssxq6t.wav" />
       </div>
     </div>
 
@@ -215,7 +215,7 @@
         class="w-screen xl:w-[0vw] h-screen object-cover opacity-50 absolute z-10 ">
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="/src/assets/audio/Gods.wav" />
+        <MusicPlayer source="https://files.catbox.moe/xe76gr.wav" />
       </div>
     </div>
   </div>
@@ -230,7 +230,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Space</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="/src/assets/audio/Insolation.mp3" />
+        <MusicPlayer source="https://files.catbox.moe/nqhkzg.mp3" />
       </div>
     </div>
 
@@ -243,7 +243,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Wise Fields</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="/src/assets/audio/Kenmeina.mp3" />
+        <MusicPlayer source="https://files.catbox.moe/asg8vj.mp3" />
       </div>
     </div>
   </div>
@@ -257,7 +257,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Temple</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="/src/assets/audio/Insolidus.mp3" />
+        <MusicPlayer source="https://files.catbox.moe/f35f8u.mp3" />
       </div>
     </div>
 
@@ -269,7 +269,7 @@
       <h1 class="text-white text-8xl font-extrabold z-0">Winter</h1>
 
       <div class="z-40 w-full mt-2">
-        <MusicPlayer source="/src/assets/audio/Ambiance_without_perc.mp3" />
+        <MusicPlayer source="https://files.catbox.moe/y7rwe0.mp3" />
       </div>
     </div>
   </div>
